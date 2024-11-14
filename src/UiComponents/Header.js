@@ -48,13 +48,17 @@ function Header() {
         position="sticky"
         elevation={3}
         sx={{
-          backgroundColor: "rgba(255, 165, 0, 0.8)",
-          color: "#fff",
+          backgroundColor: "#8eebf7",
+          color: "#00796b",
           boxShadow: "none",
         }}
       >
         <Toolbar sx={{ textAlign: { xs: "center", sm: "left" } }}>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+          <Typography
+            variant="h6"
+            component="div"
+            sx={{ flexGrow: 1, color: "#00796b" }}
+          >
             Poppins Villa
           </Typography>
 
@@ -70,7 +74,7 @@ function Header() {
 
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
             {navItems.map((item) => (
-              <Button variant="text" key={item} sx={{ color: "#fff" }}>
+              <Button variant="text" key={item} sx={{ color: "#00796b" }}>
                 {item}
               </Button>
             ))}
@@ -84,8 +88,8 @@ function Header() {
         onClose={toggleDrawer(false)}
         sx={{
           "& .MuiDrawer-paper": {
-            backgroundColor: "rgba(255, 165, 0, 0.8)",
-            color: "#fff",
+            backgroundColor: "#8eebf7",
+            color: "#00796b",
             maxHeight: "300px",
             top: "30%",
             overflowY: "inherit",
@@ -109,7 +113,7 @@ function Header() {
               variant="text"
               key={item}
               sx={{
-                color: "#fff",
+                color: "#00796b",
                 display: "block",
                 width: "100%",
                 textAlign: "center",
