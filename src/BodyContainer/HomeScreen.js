@@ -8,6 +8,7 @@ import { Box, Grid } from "@mui/material";
 import WelcomeMessage from "../UiComponents/WelcomeMessage";
 import AmenitiesPage from "../UiComponents/AmenitiesPage";
 import PricingCard from "../UiComponents/PricingCard";
+import LocationPage from "../UiComponents/LocationPage";
 
 // const images = [cambg_1, cambg_2, cambg_3, cambg_4];
 
@@ -24,6 +25,9 @@ export function HomeScreen() {
 
         <Grid item xs={12}>
           <PricingCard />
+        </Grid>
+        <Grid item xs={12}>
+          <LocationPage />
         </Grid>
         {/* <Grid item xs={12}>
           <ImageSlideShow images={images} />
