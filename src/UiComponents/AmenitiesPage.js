@@ -1,38 +1,54 @@
 import React from "react";
 import { Box, Typography, Grid } from "@mui/material";
-import PoolIcon from "@mui/icons-material/Pool";
-import FitnessCenterIcon from "@mui/icons-material/FitnessCenter";
 import LocalDiningIcon from "@mui/icons-material/LocalDining";
 import WifiIcon from "@mui/icons-material/Wifi";
-import SpaIcon from "@mui/icons-material/Spa";
 import LocalParkingIcon from "@mui/icons-material/LocalParking";
+import AcUnitIcon from "@mui/icons-material/AcUnit";
+import HotTubIcon from "@mui/icons-material/HotTub";
+import MicrowaveIcon from "@mui/icons-material/Microwave";
+import SoapIcon from "@mui/icons-material/Soap";
+import TvIcon from "@mui/icons-material/Tv";
+import BlindsIcon from "@mui/icons-material/Blinds";
 
 function AmenitiesPage() {
   const amenities = [
     {
-      icon: <PoolIcon sx={{ fontSize: 50, color: "#00796b" }} />,
-      name: "Swimming Pool",
+      icon: <AcUnitIcon sx={{ fontSize: 50, color: "#00796b" }} />,
+      name: "Air Conditioning",
     },
     {
-      icon: <FitnessCenterIcon sx={{ fontSize: 50, color: "#00796b" }} />,
-      name: "Gym & Fitness",
+      icon: <HotTubIcon sx={{ fontSize: 50, color: "#00796b" }} />,
+      name: "Hot Water",
     },
     {
       icon: <LocalDiningIcon sx={{ fontSize: 50, color: "#00796b" }} />,
-      name: "Restaurant",
+      name: "Near By Restaurant",
     },
     {
       icon: <WifiIcon sx={{ fontSize: 50, color: "#00796b" }} />,
       name: "Free Wi-Fi",
     },
     {
-      icon: <SpaIcon sx={{ fontSize: 50, color: "#00796b" }} />,
-      name: "Spa Services",
+      icon: <MicrowaveIcon sx={{ fontSize: 50, color: "#00796b" }} />,
+      name: "Kitchen",
     },
     {
       icon: <LocalParkingIcon sx={{ fontSize: 50, color: "#00796b" }} />,
       name: "Parking",
     },
+    ,
+    {
+      icon: <SoapIcon sx={{ fontSize: 50, color: "#00796b" }} />,
+      name: "Soap & Shampoo",
+    },
+    {
+      icon: <TvIcon sx={{ fontSize: 50, color: "#00796b" }} />,
+      name: "Television",
+    },
+    {
+      icon: <BlindsIcon sx={{ fontSize: 50, color: "#00796b" }} />,
+      name: "Room-Darkening Blinds",
+    }
   ];
 
   return (
