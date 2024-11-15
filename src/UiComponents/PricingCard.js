@@ -61,7 +61,7 @@ function PricingCard() {
   };
 
   return (
-    <Box sx={{ padding: "20px", backgroundColor: "#e0f7fa" }}>
+    <Box sx={{ padding: "20px", backgroundColor: "#e0f7fa" }} id="Pricing">
       <Typography
         variant="h3"
         sx={{ color: "#00796b", textAlign: "center", mb: 4 }}

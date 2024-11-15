@@ -27,7 +27,23 @@ const StickyBox = styled(Box)(({ theme }) => ({
   },
 }));
 
-const navItems = ["Home", "Amenities", "Pricing", "Location", "Contact"];
+// const navItems = [
+//   "Home",
+//   "Amenities",
+//   "Pricing",
+//   "Near By",
+//   "Location",
+//   "About Us",
+// ];
+
+const navItems = [
+  { key: 1, value: "Home", href: "#Home" },
+  { key: 2, value: "Amenities", href: "#Amenities" },
+  { key: 3, value: "Pricing", href: "#Pricing" },
+  { key: 4, value: "Near By", href: "#nearByPlaces" },
+  { key: 5, value: "Location", href: "#Location" },
+  { key: 6, value: "About Us", href: "#aboutUs" },
+];
 
 function Header() {
   const [openDrawer, setOpenDrawer] = useState(false);
@@ -59,7 +75,7 @@ function Header() {
             component="div"
             sx={{ flexGrow: 1, color: "#00796b" }}
           >
-            Poppins Villa
+            <b>Poppins Villa</b>
           </Typography>
 
           <IconButton
@@ -74,8 +90,13 @@ function Header() {
 
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
             {navItems.map((item) => (
-              <Button variant="text" key={item} sx={{ color: "#00796b" }}>
-                {item}
+              <Button
+                variant="text"
+                key={item.key}
+                sx={{ color: "#00796b" }}
+                href={item.href}
+              >
+                {item.value}
               </Button>
             ))}
           </Box>
@@ -111,7 +132,7 @@ function Header() {
           {navItems.map((item) => (
             <Button
               variant="text"
-              key={item}
+              key={item.key}
               sx={{
                 color: "#00796b",
                 display: "block",
@@ -120,8 +141,9 @@ function Header() {
                 top: "30%",
               }}
               onClick={toggleDrawer(false)}
+              href={item.href}
             >
-              {item}
+              {item.value}
             </Button>
           ))}
         </Box>
