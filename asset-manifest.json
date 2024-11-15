@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/PoppinsVilla.github.io/static/css/main.e6c13ad2.css",
-    "main.js": "/PoppinsVilla.github.io/static/js/main.4111e256.js",
+    "main.js": "/PoppinsVilla.github.io/static/js/main.773647b0.js",
     "static/js/453.a06bb7bf.chunk.js": "/PoppinsVilla.github.io/static/js/453.a06bb7bf.chunk.js",
     "static/media/cambg_1.jpg": "/PoppinsVilla.github.io/static/media/cambg_1.44076c918a76ac02c77e.jpg",
     "static/media/cambg_2.jpg": "/PoppinsVilla.github.io/static/media/cambg_2.9d8e608c34fd690b5b5b.jpg",
     "index.html": "/PoppinsVilla.github.io/index.html",
     "main.e6c13ad2.css.map": "/PoppinsVilla.github.io/static/css/main.e6c13ad2.css.map",
-    "main.4111e256.js.map": "/PoppinsVilla.github.io/static/js/main.4111e256.js.map",
+    "main.773647b0.js.map": "/PoppinsVilla.github.io/static/js/main.773647b0.js.map",
     "453.a06bb7bf.chunk.js.map": "/PoppinsVilla.github.io/static/js/453.a06bb7bf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.4111e256.js"
+    "static/js/main.773647b0.js"
   ]
 }
