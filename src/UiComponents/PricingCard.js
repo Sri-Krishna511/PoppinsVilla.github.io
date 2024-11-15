@@ -25,27 +25,27 @@ function PricingCard() {
     {
       type: "3 BHK",
       price: "4000 INR",
-      description: "Spacious 3 BHK for family of 8 to 12 people.",
+      description: "Spacious 3 Bedrooms with Hall and Kitchen with stove and fridge, good stay for family of 8 to 12 people.",
       images: [cambg_1, cambg_2],
     },
     {
       type: "4 BH",
       price: "5000 INR",
       description:
-        "Comfortable 4 BH with all basic facilities for a family of 10 to 16 people.",
+        "Comfortable 4 Bedrooms with Hall and with all basic facilities for a family of 10 to 16 people.",
       images: [cambg_1, cambg_2],
     },
     {
       type: "7 BHK",
       price: "8000 INR",
       description:
-        "We rent out the whole house for joint family accousion with accomodation of 18 to 30 people.",
+        "We rent out the whole house for joint families or for travel agency with accomodation of 18 to 40 people.",
       images: [cambg_1, cambg_2],
     },
     {
       type: "1 BHK",
       price: "1200 INR",
-      description: "Cozy 1 BHK suitable for singles or couples.",
+      description: "Comfortable 1 bedroom with balcony which is best suitable for singles or couples.",
       images: [cambg_1, cambg_2],
     },
   ];
@@ -67,6 +67,21 @@ function PricingCard() {
         sx={{ color: "#00796b", textAlign: "center", mb: 4 }}
       >
         Pricing Options
+      </Typography>
+      <Typography
+        variant="h6"
+        sx={{
+          color: "#004d40",
+          textAlign: "center",
+          mb: 3,
+        }}
+      >
+        Poppins Villa offers versatile accommodation options, including a
+        spacious 3BHK on the ground floor, a well-appointed 4BH on the first
+        floor, or the entire villa as a 7BHK setup. Additionally, we provide the
+        option of renting a single room with a balcony for a more private stay.
+        Please note that the listed prices are for non-A/C accommodations. For
+        price negotiations or to confirm your stay, kindly contact us directly.
       </Typography>
 
       <Grid container spacing={4} justifyContent="center">
