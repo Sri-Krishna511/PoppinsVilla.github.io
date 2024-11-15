@@ -36,7 +36,6 @@ function AmenitiesPage() {
       icon: <LocalParkingIcon sx={{ fontSize: 50, color: "#00796b" }} />,
       name: "Parking",
     },
-    ,
     {
       icon: <SoapIcon sx={{ fontSize: 50, color: "#00796b" }} />,
       name: "Soap & Shampoo",
@@ -48,7 +47,7 @@ function AmenitiesPage() {
     {
       icon: <BlindsIcon sx={{ fontSize: 50, color: "#00796b" }} />,
       name: "Room-Darkening Blinds",
-    }
+    },
   ];
 
   return (
