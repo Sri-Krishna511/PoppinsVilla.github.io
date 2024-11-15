@@ -44,6 +44,7 @@ function AmenitiesPage() {
         alignItems: "center",
         textAlign: "center",
       }}
+      id="Amenities"
     >
       <Typography variant="h3" sx={{ mb: 4, color: "#00796b" }}>
         Our Amenities

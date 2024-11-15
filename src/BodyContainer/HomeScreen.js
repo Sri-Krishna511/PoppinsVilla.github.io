@@ -9,12 +9,14 @@ import WelcomeMessage from "../UiComponents/WelcomeMessage";
 import AmenitiesPage from "../UiComponents/AmenitiesPage";
 import PricingCard from "../UiComponents/PricingCard";
 import LocationPage from "../UiComponents/LocationPage";
+import NearByPlaces from "../UiComponents/NearByPlaces";
+import AboutUs from "../UiComponents/AboutUs";
 
 // const images = [cambg_1, cambg_2, cambg_3, cambg_4];
 
 export function HomeScreen() {
   return (
-    <Box sx={{ paddingTop: "40px" }}>
+    <Box sx={{ paddingTop: "40px" }} id="Home">
       <Grid container spacing={2} sx={{ marginTop: "0px" }}>
         <Grid item xs={12}>
           <WelcomeMessage />
@@ -22,12 +24,17 @@ export function HomeScreen() {
         <Grid item xs={12}>
           <AmenitiesPage />
         </Grid>
-
         <Grid item xs={12}>
           <PricingCard />
         </Grid>
         <Grid item xs={12}>
+          <NearByPlaces />
+        </Grid>
+        <Grid item xs={12}>
           <LocationPage />
+        </Grid>
+        <Grid item xs={12}>
+          <AboutUs />
         </Grid>
         {/* <Grid item xs={12}>
           <ImageSlideShow images={images} />

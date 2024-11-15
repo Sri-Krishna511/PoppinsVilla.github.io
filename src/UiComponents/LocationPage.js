@@ -3,7 +3,13 @@ import { Box, Typography } from "@mui/material";
 
 function LocationPage() {
   return (
-    <Box sx={{ padding: "20px", minHeight: "100vh" }}>
+    <Box
+      sx={{
+        padding: "20px",
+        backgroundColor: "#e0f7fa"
+      }}
+      id="Location"
+    >
       <Typography
         variant="h3"
         sx={{ color: "#00796b", textAlign: "center", mb: 4 }}
