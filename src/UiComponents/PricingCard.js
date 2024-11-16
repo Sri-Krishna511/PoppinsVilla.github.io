@@ -14,8 +14,36 @@ import {
 } from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";
 import Carousel from "react-material-ui-carousel";
-import cambg_1 from "../images/cambg_1.jpg";
-import cambg_2 from "../images/cambg_2.jpg";
+import bhk3_1 from "../images/bedroomImages/3bhk_1.jpg";
+import bhk3_2 from "../images/bedroomImages/3bhk_2.jpg";
+import bhk3_3 from "../images/bedroomImages/3bhk_3.jpg";
+import bhk3_4 from "../images/bedroomImages/3bhk_4.jpg";
+import bhk3_5 from "../images/bedroomImages/3bhk_5.jpg";
+import bhk3_6 from "../images/bedroomImages/3bhk_6.jpg";
+import bhk3_7 from "../images/bedroomImages/3bhk_7.jpg";
+import bhk3_8 from "../images/bedroomImages/3bhk_8.jpg";
+import bhk3_9 from "../images/bedroomImages/3bhk_9.jpg";
+import bhk3_10 from "../images/bedroomImages/3bhk_10.jpg";
+import bhk3_11 from "../images/bedroomImages/3bhk_11.jpg";
+import bhk4_1 from "../images/bedroomImages/4bhk_1.jpg";
+import bhk4_2 from "../images/bedroomImages/4bhk_2.jpg";
+import bhk4_3 from "../images/bedroomImages/4bhk_3.jpg";
+import bhk4_4 from "../images/bedroomImages/4bhk_4.jpg";
+import bhk4_5 from "../images/bedroomImages/4bhk_5.jpg";
+import bhk4_6 from "../images/bedroomImages/4bhk_6.jpg";
+import bhk4_7 from "../images/bedroomImages/4bhk_7.jpg";
+import bhk4_8 from "../images/bedroomImages/4bhk_8.jpg";
+import bhk4_9 from "../images/bedroomImages/4bhk_9.jpg";
+import bhk4_10 from "../images/bedroomImages/4bhk_10.jpg";
+import bhk4_11 from "../images/bedroomImages/4bhk_11.jpg";
+import bhk4_12 from "../images/bedroomImages/4bhk_12.jpg";
+import bhk4_13 from "../images/bedroomImages/4bhk_13.jpg";
+import bhk4_14 from "../images/bedroomImages/4bhk_14.jpg";
+import bhk4_15 from "../images/bedroomImages/4bhk_15.jpg";
+import bhk4_16 from "../images/bedroomImages/4bhk_16.jpg";
+import bhk7_1 from "../images/gallaryImages/7bhk_1.jpg";
+import bhk7_2 from "../images/gallaryImages/7bhk_2.jpg";
+import bhk7_3 from "../images/gallaryImages/7bhk_3.jpg";
 
 function PricingCard() {
   const [open, setOpen] = useState(false);
@@ -25,28 +53,73 @@ function PricingCard() {
     {
       type: "3 BHK",
       price: "4000 INR",
-      description: "Spacious 3 Bedrooms with Hall and Kitchen with stove and fridge, good stay for family of 8 to 12 people.",
-      images: [cambg_1, cambg_2],
+      description:
+        "Spacious 3 Bedrooms with Hall and Kitchen with stove and fridge, good stay for family of 8 to 12 people.",
+      images: [
+        bhk3_1,
+        bhk3_2,
+        bhk3_3,
+        bhk3_4,
+        bhk3_5,
+        bhk3_6,
+        bhk3_7,
+        bhk3_8,
+        bhk3_9,
+        bhk3_10,
+        bhk3_11,
+      ],
     },
     {
       type: "4 BH",
       price: "5000 INR",
       description:
         "Comfortable 4 Bedrooms with Hall and with all basic facilities for a family of 10 to 16 people.",
-      images: [cambg_1, cambg_2],
+      images: [
+        bhk4_1,
+        bhk4_2,
+        bhk4_3,
+        bhk4_4,
+        bhk4_5,
+        bhk4_6,
+        bhk4_7,
+        bhk4_8,
+        bhk4_9,
+        bhk4_10,
+        bhk4_11,
+        bhk4_12,
+        bhk4_13,
+        bhk4_14,
+        bhk4_15,
+        bhk4_16,
+      ],
     },
     {
       type: "7 BHK",
       price: "8000 INR",
       description:
         "We rent out the whole house for joint families or for travel agency with accomodation of 18 to 40 people.",
-      images: [cambg_1, cambg_2],
+      images: [
+        bhk3_1,
+        bhk3_9,
+        bhk3_10,
+        bhk3_11,
+        bhk4_1,
+        bhk4_2,
+        bhk4_3,
+        bhk4_4,
+        bhk4_5,
+        bhk4_6,
+        bhk7_1,
+        bhk7_2,
+        bhk7_3,
+      ],
     },
     {
       type: "1 BHK",
       price: "1200 INR",
-      description: "Comfortable 1 bedroom with balcony which is best suitable for singles or couples.",
-      images: [cambg_1, cambg_2],
+      description:
+        "Comfortable 1 bedroom with balcony which is best suitable for singles or couples.",
+      images: [bhk4_3, bhk4_4, bhk4_5, bhk4_6],
     },
   ];
 
