@@ -34,8 +34,72 @@ const nearbyPlaces = [
     url: "https://www.google.com/search?q=karanji+lake&sca_esv=31bc3a22d96d9e0a&sxsrf=ADLYWIICIi334gS-ZVhaW_bRQgVDyuDdbA%3A1731699217245&ei=EaI3Z9PYDvCUseMP6v3ywAk&gs_ssp=eJzj4tLP1TcwKjIpzqgyYPTiyU4sSszLylTIScxOBQBqSwhh&oq=Karanji+Lake&gs_lp=Egxnd3Mtd2l6LXNlcnAiDEthcmFuamkgTGFrZSoCCAAyDRAuGIAEGLEDGEMYigUyChAAGIAEGBQYhwIyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIcEC4YgAQYsQMYQxiKBRiXBRjcBBjeBBjgBNgBAUjdJVDlB1jlB3ADeAGQAQCYAYcCoAGHAqoBAzItMbgBAcgBAPgBAvgBAZgCBqAC7RXCAgoQABiwAxjWBBhHwgINEAAYgAQYsAMYQxiKBcICDhAAGLADGOQCGNYE2AEBwgIZEC4YgAQYsAMYQxjHARjIAxiKBRivAdgBAcICExAuGIAEGLADGEMYyAMYigXYAQHCAh8QLhiABBiwAxhDGMcBGJgFGMgDGJkFGIoFGK8B2AEBmAMAiAYBkAYTugYGCAEQARgJkgcNMy4wLjEuNS0xLjAuMaAH3wc&sclient=gws-wiz-serp",
   },
   {
+    name: "Balamuri Falls",
+    url: "https://g.co/kgs/aQT3LiQ",
+  },
+  {
     name: "Rail Museum",
     url: "https://www.google.com/search?q=rail+museum+mysore&sca_esv=31bc3a22d96d9e0a&sxsrf=ADLYWILhRI6i0wiADgriCINu82gDcwUZpg%3A1731699248398&ei=MKI3Z4CEGJyXseMPptGv8Qo&gs_ssp=eJzj4tLP1TcwMs8qrsg2YLRSNagwTkpMMzcwN000TUkxTk4xtgIKGSYnmSalmlgYphokm5gkegkVJWbmKOSWFqeW5irkVhbnF6UCAObJFg8&oq=Rail+Museum&gs_lp=Egxnd3Mtd2l6LXNlcnAiC1JhaWwgTXVzZXVtKgIIADIQEC4YgAQYQxjHARiKBRivATIFEAAYgAQyCBAAGIAEGLEDMgUQABiABDIFEAAYgAQyDhAuGIAEGLEDGMcBGK8BMgsQLhiABBjHARivATIOEC4YgAQYxwEYjgUYrwEyDhAuGIAEGMcBGI4FGK8BMgsQLhiABBjHARivATIfEC4YgAQYQxjHARiKBRivARiXBRjcBBjeBBjgBNgBAUijGVCqBliqBnADeAGQAQCYAYkCoAGJAqoBAzItMbgBAcgBAPgBAvgBAZgCBaAC5w7CAgoQABiwAxjWBBhHwgINEAAYgAQYsAMYQxiKBcICGRAuGIAEGLADGEMYxwEYyAMYigUYrwHYAQHCAhMQLhiABBiwAxhDGMgDGIoF2AEBwgIfEC4YgAQYsAMYQxjHARiYBRjIAxiZBRiKBRivAdgBAZgDAIgGAZAGFLoGBggBEAEYCJIHCTMuMC4xLjctMaAHzxY&sclient=gws-wiz-serp",
+  },
+  {
+    name: "payana car museum",
+    url: "https://www.google.com/search?gs_ssp=eJzj4tVP1zc0LCsyMDXNLaw0YLRSNagwTkpMMzc3MDAzN0pKtTQxtzKoMDdNTEk2NDJINDU3SzFPTvMSLEisTMxLVEhOLFLILS1OLc0FAPfCFds&q=payana+car+museum&oq=payana&gs_lcrp=EgZjaHJvbWUqEAgBEC4YrwEYxwEYsQMYgAQyDAgAEEUYORixAxiABDIQCAEQLhivARjHARixAxiABDIHCAIQABiABDIHCAMQLhiABDIHCAQQABiABDIHCAUQLhiABDINCAYQLhivARjHARiABDIHCAcQLhiABDIHCAgQABiABDIHCAkQABiABNIBCTExMDE0ajBqN6gCCLACAQ&sourceid=chrome&ie=UTF-8",
+  },
+  {
+    name: "Srirangapatna Fort",
+    url: "https://g.co/kgs/ykyab8h",
+  },
+  {
+    name: "Ranganathittu Bird Sanctuary",
+    url: "https://www.google.com/search?q=ranganathittu+bird+sanctuary&sca_esv=9ea83b4b79de5e32&sxsrf=ADLYWIK_p9lE_kxD67gaEehqe7wCNqndow%3A1731789132562&ei=TAE5Z-WAIrrgseMP6dma0Q4&gs_ssp=eJzj4tTP1TewiM-tMjZgtFI1qDBOSkwzB4KUFANjo1SDJCuDipS0FCPzxMQUS-NUo6RkE2MvmaLEvPTEvMSSjMySklKFpMyiFIXixLzkktLEokoAwT8Z7Q&oq=rangantittu&gs_lp=Egxnd3Mtd2l6LXNlcnAiC3JhbmdhbnRpdHR1KgIIATIHEAAYgAQYCjIQEC4YgAQYsQMYxwEYChivATIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCjINEC4YgAQYxwEYChivATIHEAAYgAQYCkiQ3gZQ9IMGWJXJBnAFeAGQAQCYAbkCoAGZEqoBBzAuNS41LjG4AQHIAQD4AQGYAhCgArsUwgIKEAAYsAMY1gQYR8ICDRAAGIAEGLADGEMYigXCAhMQLhiABBiwAxhDGMgDGIoF2AEBwgIZEC4YgAQYsAMYQxjHARjIAxiKBRivAdgBAcICExAuGIAEGMcBGCcYigUYjgUYrwHCAhAQLhiABBhDGMcBGIoFGK8BwgIKEAAYgAQYQxiKBcICDhAuGIAEGLEDGNEDGMcBwgILEC4YgAQY0QMYxwHCAiAQLhiABBjHARiKBRiOBRivARiXBRjcBBjeBBjgBNgBAcICCxAAGIAEGJECGIoFwgIREC4YgAQYkQIYxwEYigUYrwHCAhMQLhiABBixAxhDGMcBGIoFGK8BwgIREC4YgAQYsQMYxwEYjgUYrwHCAgsQLhiABBixAxiDAcICHxAuGIAEGEMYxwEYigUYrwEYlwUY3AQY3gQY4ATYAQHCAg0QABiABBixAxhDGIoFwgIFEAAYgATCAiIQLhiABBixAxhDGMcBGIoFGK8BGJcFGNwEGN4EGOAE2AEBwgIREC4YgAQYxwEYmAUYmgUYrwHCAgUQLhiABMICCBAAGIAEGLEDwgIIEC4YgAQYsQPCAgoQABiABBixAxgKwgIQEC4YgAQYxwEYChiOBRivAZgDAIgGAZAGFLoGBggBEAEYCJIHBzUuMS45LjGgB_HXAQ&sclient=gws-wiz-serp",
+  },
+  {
+    name: "Tipu Sultan Summer Palace And Museum",
+    url: "https://g.co/kgs/cCcqzhk",
+  },
+  {
+    name: "KRS North Back Water",
+    url: "https://g.co/kgs/dEV7tGZ",
+  },
+  {
+    name: "Karekura",
+    url: "https://g.co/kgs/S9mwGNv",
+  },
+  {
+    name: "karighatta",
+    url: "https://g.co/kgs/WhDzvvp",
+  },
+  {
+    name: "Kere Thondanor",
+    url: "https://maps.app.goo.gl/mRwgy1bwSXwbAA1w6",
+  },
+  {
+    name: "Varuna Lake Water Sports Activity",
+    url: "https://maps.app.goo.gl/3EZdGdczo7adCzfQA",
+  },
+  {
+    name: "GRS Up Down Museum",
+    url: "https://maps.app.goo.gl/iN2ozj8RrUQAFCBu5",
+  },
+  {
+    name: "GRS Fantasy Water Park",
+    url: "https://maps.app.goo.gl/Nza9TTmGdSA71uv36",
+  },
+  {
+    name: "Sri Nimishambha Temple",
+    url: "https://g.co/kgs/2hW85Bb",
+  },
+  {
+    name: "Talakadu",
+    url: "https://g.co/kgs/Le8pkuF",
+  },
+  {
+    name: "Triveni Sangama",
+    url: "https://g.co/kgs/Ehx4k7i",
+  },
+  {
+    name: "Himavad GopalSwamy Betta",
+    url: "https://g.co/kgs/qW3z5aW",
   },
   {
     name: "Jaganmohan Palace",
