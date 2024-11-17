@@ -33,13 +33,23 @@ function AboutUs() {
           unforgettable!
         </p>
       </Typography>
-      <Grid container spacing={2}>
+      <Grid container spacing={2} id="contactus">
         <Grid item xs={12} sx={{ textAlign: "center" }}>
           <Typography
             variant="h3"
-            sx={{ color: "#00796b", textAlign: "center", mb: 4 }}
+            sx={{ color: "#00796b", textAlign: "center", mb: 1 }}
           >
             Contact Details
+          </Typography>
+          <Typography
+            variant="h6"
+            sx={{
+              color: "#004d40",
+              textAlign: "center",
+              mb: 3,
+            }}
+          >
+            Click on the buttons below to call for an enquiry to the stay.
           </Typography>
         </Grid>
         <Grid item xs={6} sx={{ textAlign: "center" }}>
@@ -50,7 +60,7 @@ function AboutUs() {
             sx={{
               backgroundColor: "#00796b",
               ":hover": { backgroundColor: "#004d40" },
-              textTransform: "none"
+              textTransform: "none",
             }}
           >
             Krishna
@@ -64,13 +74,26 @@ function AboutUs() {
             sx={{
               backgroundColor: "#00796b",
               ":hover": { backgroundColor: "#004d40" },
-              textTransform: "none"
+              textTransform: "none",
             }}
           >
             Sreejith
           </Button>
         </Grid>
       </Grid>
+      {/* Footer Section */}
+      <Box
+        sx={{
+          marginTop: "40px",
+          padding: "10px 0",
+          backgroundColor: "#f1f1f1",
+          textAlign: "center",
+        }}
+      >
+        <Typography variant="body2" sx={{ color: "#00796b", fontWeight: 600 }}>
+          © 2024 Poppins Villa. All Rights Reserved.
+        </Typography>
+      </Box>
     </Box>
   );
 }
