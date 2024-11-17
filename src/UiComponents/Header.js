@@ -42,7 +42,7 @@ const navItems = [
   { key: 3, value: "Pricing", href: "#Pricing" },
   { key: 4, value: "Near By", href: "#nearByPlaces" },
   { key: 5, value: "Location", href: "#Location" },
-  { key: 6, value: "About Us", href: "#aboutUs" },
+  { key: 6, value: "About", href: "#aboutUs" },
 ];
 
 function Header() {

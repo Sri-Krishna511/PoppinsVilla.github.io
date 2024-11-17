@@ -69,7 +69,7 @@ function AmenitiesPage() {
         sx={{ mb: 6, color: "#004d40", maxWidth: "600px" }}
       >
         We offer a variety of amenities to make your stay comfortable and
-        memorable. Enjoy top-class facilities to enhance your experience with
+        memorable. Enjoy the facilities to enhance your experience with
         us.
       </Typography>
 

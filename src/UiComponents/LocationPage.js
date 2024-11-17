@@ -26,7 +26,7 @@ function LocationPage() {
           margin: "auto",
         }}
       >
-        Visit our property located in the heart of the city with easy access to
+        Visit our property located 2 km to the ring road with easy access to
         popular attractions and transportation.
       </Typography>
 
