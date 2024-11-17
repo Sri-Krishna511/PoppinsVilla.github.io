@@ -153,8 +153,8 @@ function PricingCard() {
         spacious 3BHK on the ground floor, a well-appointed 4BH on the first
         floor, or the entire villa as a 7BHK setup. Additionally, we provide the
         option of renting a single room with a balcony for a more private stay.
-        Please note that the listed prices are for non-A/C accommodations. For
-        price negotiations or to confirm your stay, kindly contact us directly.
+        Please note that the listed prices are for non-A/C accommodations. <b>For
+        price negotiations or to confirm your stay</b>, kindly <a href="#contactus">contact us</a> directly.
       </Typography>
 
       <Grid container spacing={4} justifyContent="center">
@@ -196,7 +196,6 @@ function PricingCard() {
         ))}
       </Grid>
 
-      {/* Dialog for displaying details */}
       {selectedPricing && (
         <Dialog open={open} onClose={handleClose} fullWidth maxWidth="sm">
           <DialogTitle

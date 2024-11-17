@@ -42,7 +42,7 @@ const nearbyPlaces = [
     url: "https://www.google.com/search?q=rail+museum+mysore&sca_esv=31bc3a22d96d9e0a&sxsrf=ADLYWILhRI6i0wiADgriCINu82gDcwUZpg%3A1731699248398&ei=MKI3Z4CEGJyXseMPptGv8Qo&gs_ssp=eJzj4tLP1TcwMs8qrsg2YLRSNagwTkpMMzcwN000TUkxTk4xtgIKGSYnmSalmlgYphokm5gkegkVJWbmKOSWFqeW5irkVhbnF6UCAObJFg8&oq=Rail+Museum&gs_lp=Egxnd3Mtd2l6LXNlcnAiC1JhaWwgTXVzZXVtKgIIADIQEC4YgAQYQxjHARiKBRivATIFEAAYgAQyCBAAGIAEGLEDMgUQABiABDIFEAAYgAQyDhAuGIAEGLEDGMcBGK8BMgsQLhiABBjHARivATIOEC4YgAQYxwEYjgUYrwEyDhAuGIAEGMcBGI4FGK8BMgsQLhiABBjHARivATIfEC4YgAQYQxjHARiKBRivARiXBRjcBBjeBBjgBNgBAUijGVCqBliqBnADeAGQAQCYAYkCoAGJAqoBAzItMbgBAcgBAPgBAvgBAZgCBaAC5w7CAgoQABiwAxjWBBhHwgINEAAYgAQYsAMYQxiKBcICGRAuGIAEGLADGEMYxwEYyAMYigUYrwHYAQHCAhMQLhiABBiwAxhDGMgDGIoF2AEBwgIfEC4YgAQYsAMYQxjHARiYBRjIAxiZBRiKBRivAdgBAZgDAIgGAZAGFLoGBggBEAEYCJIHCTMuMC4xLjctMaAHzxY&sclient=gws-wiz-serp",
   },
   {
-    name: "payana car museum",
+    name: "Payana Car Museum",
     url: "https://www.google.com/search?gs_ssp=eJzj4tVP1zc0LCsyMDXNLaw0YLRSNagwTkpMMzc3MDAzN0pKtTQxtzKoMDdNTEk2NDJINDU3SzFPTvMSLEisTMxLVEhOLFLILS1OLc0FAPfCFds&q=payana+car+museum&oq=payana&gs_lcrp=EgZjaHJvbWUqEAgBEC4YrwEYxwEYsQMYgAQyDAgAEEUYORixAxiABDIQCAEQLhivARjHARixAxiABDIHCAIQABiABDIHCAMQLhiABDIHCAQQABiABDIHCAUQLhiABDINCAYQLhivARjHARiABDIHCAcQLhiABDIHCAgQABiABDIHCAkQABiABNIBCTExMDE0ajBqN6gCCLACAQ&sourceid=chrome&ie=UTF-8",
   },
   {
@@ -66,7 +66,7 @@ const nearbyPlaces = [
     url: "https://g.co/kgs/S9mwGNv",
   },
   {
-    name: "karighatta",
+    name: "Karighatta",
     url: "https://g.co/kgs/WhDzvvp",
   },
   {
