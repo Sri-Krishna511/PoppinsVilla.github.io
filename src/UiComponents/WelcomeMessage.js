@@ -47,7 +47,7 @@ function WelcomeMessage() {
               backgroundColor: "#00796b",
               "&:hover": { backgroundColor: "#004d40" },
             }}
-            onClick={() => alert("Happy to see you here!")}
+            href="#Amenities"
           >
             Start Exploring
           </Button>
