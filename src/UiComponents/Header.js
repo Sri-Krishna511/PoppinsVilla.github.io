@@ -27,15 +27,6 @@ const StickyBox = styled(Box)(({ theme }) => ({
   },
 }));
 
-// const navItems = [
-//   "Home",
-//   "Amenities",
-//   "Pricing",
-//   "Near By",
-//   "Location",
-//   "About Us",
-// ];
-
 const navItems = [
   { key: 1, value: "Home", href: "#Home" },
   { key: 2, value: "Amenities", href: "#Amenities" },
@@ -112,6 +103,8 @@ function Header() {
             backgroundColor: "#8eebf7",
             color: "#00796b",
             maxHeight: "300px",
+            height: "auto",
+            paddingTop: "24px",
             top: "30%",
             overflowY: "inherit",
           },
@@ -125,6 +118,7 @@ function Header() {
             sx={{
               position: "absolute",
               right: "10px",
+              marginTop: "-24px"
             }}
           >
             <CloseIcon />

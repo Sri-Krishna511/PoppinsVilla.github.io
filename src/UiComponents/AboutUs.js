@@ -1,6 +1,10 @@
 import React from "react";
-import { Box, Grid, Typography, Button } from "@mui/material";
+import { Box, Grid, Typography, Button} from "@mui/material";
 import PhoneIcon from "@mui/icons-material/Phone";
+// import EmailIcon from "@mui/icons-material/Email";
+// import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+// import InstagramIcon from "@mui/icons-material/Instagram";
+// import AddIcCallIcon from "@mui/icons-material/AddIcCall";
 
 function AboutUs() {
   return (
@@ -49,7 +53,8 @@ function AboutUs() {
               mb: 3,
             }}
           >
-            Click on the buttons below to call for an enquiry to the stay.
+            Click on the buttons below to call for an enquiry regarding the
+            stay.
           </Typography>
         </Grid>
         <Grid item xs={6} sx={{ textAlign: "center" }}>
@@ -63,24 +68,91 @@ function AboutUs() {
               textTransform: "none",
             }}
           >
-            Krishna
+            Sri Krishna
           </Button>
         </Grid>
         <Grid item xs={6} sx={{ textAlign: "center" }}>
           <Button
             variant="contained"
             startIcon={<PhoneIcon />}
-            href="tel:+919845448902"
+            href="tel:+919964418600"
             sx={{
               backgroundColor: "#00796b",
               ":hover": { backgroundColor: "#004d40" },
               textTransform: "none",
             }}
           >
-            Sreejith
+            Ganapathi
           </Button>
         </Grid>
       </Grid>
+      {/* <Grid container spacing={2} id="contactus">
+        <Grid item xs={12} sx={{ textAlign: "center" }}>
+          <Typography
+            variant="h3"
+            sx={{ color: "#00796b", textAlign: "center", mb: 2 }}
+          >
+            Get in Touch
+          </Typography>
+          <Box
+            sx={{
+              display: "flex",
+              justifyContent: "center",
+              gap: "20px",
+            }}
+          >
+            <IconButton
+              href="tel:+918105004680"
+              sx={{
+                color: "#00796b",
+                ":hover": { color: "#004d40" },
+              }}
+            >
+              <PhoneIcon fontSize="large" />
+            </IconButton>
+            <IconButton
+              href="mailto:srikrishnabadi.sgb@gmail.com"
+              sx={{
+                color: "#00796b",
+                ":hover": { color: "#004d40" },
+              }}
+            >
+              <EmailIcon fontSize="large" />
+            </IconButton>
+            <IconButton
+              href="https://wa.me/918105004680"
+              target="_blank"
+              rel="noopener"
+              sx={{
+                color: "#00796b",
+                ":hover": { color: "#004d40" },
+              }}
+            >
+              <WhatsAppIcon fontSize="large" />
+            </IconButton>
+            <IconButton
+              href="https://instagram.com/poppinsvilla"
+              target="_blank"
+              rel="noopener"
+              sx={{
+                color: "#00796b",
+                ":hover": { color: "#004d40" },
+              }}
+            >
+              <InstagramIcon fontSize="large" />
+            </IconButton>
+            <IconButton
+              href="tel:+919964418600"
+              sx={{
+                color: "#00796b",
+                ":hover": { color: "#004d40" },
+              }}
+            >
+              <AddIcCallIcon fontSize="large" />
+            </IconButton>
+          </Box>
+        </Grid>
+      </Grid> */}
       {/* Footer Section */}
       <Box
         sx={{
