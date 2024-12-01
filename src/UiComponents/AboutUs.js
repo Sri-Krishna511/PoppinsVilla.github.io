@@ -8,6 +8,7 @@ import PhoneIcon from "@mui/icons-material/Phone";
 
 function AboutUs() {
   return (
+    <>
     <Box sx={{ padding: "20px" }} id="aboutUs">
       <Typography
         variant="h3"
@@ -37,7 +38,9 @@ function AboutUs() {
           unforgettable!
         </p>
       </Typography>
-      <Grid container spacing={2} id="contactus">
+      </Box>
+      <Box sx={{ padding: "20px", backgroundColor: "#e0f7fa" }} >
+      <Grid container spacing={2} id="contactus" >
         <Grid item xs={12} sx={{ textAlign: "center" }}>
           <Typography
             variant="h3"
@@ -154,9 +157,10 @@ function AboutUs() {
         </Grid>
       </Grid> */}
       {/* Footer Section */}
+      </Box>
       <Box
         sx={{
-          marginTop: "40px",
+          marginTop: "10px",
           padding: "10px 0",
           backgroundColor: "#f1f1f1",
           textAlign: "center",
@@ -166,7 +170,7 @@ function AboutUs() {
           © 2024 Poppins Villa. All Rights Reserved.
         </Typography>
       </Box>
-    </Box>
+    </>
   );
 }
 
