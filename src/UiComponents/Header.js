@@ -34,6 +34,7 @@ const navItems = [
   { key: 4, value: "Near By", href: "#nearByPlaces" },
   { key: 5, value: "Location", href: "#Location" },
   { key: 6, value: "About", href: "#aboutUs" },
+  { key: 7, value: "Contact Us", href: "#contactus" },
 ];
 
 function Header() {
