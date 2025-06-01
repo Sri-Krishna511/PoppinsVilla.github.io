@@ -61,28 +61,28 @@ function AboutUs() {
           <Button
             variant="contained"
             startIcon={<PhoneIcon />}
-            href="tel:+918105004680"
+            href="tel:+917902243544"
             sx={{
               backgroundColor: "#00796b",
               ":hover": { backgroundColor: "#004d40" },
               textTransform: "none",
             }}
           >
-            Sri Krishna
+            Abdul Nazer
           </Button>
         </Grid>
         <Grid item xs={6} sx={{ textAlign: "center" }}>
           <Button
             variant="contained"
             startIcon={<PhoneIcon />}
-            href="tel:+919964418600"
+            href="tel:+918904853667"
             sx={{
               backgroundColor: "#00796b",
               ":hover": { backgroundColor: "#004d40" },
               textTransform: "none",
             }}
           >
-            Ganapathi
+            Babu
           </Button>
         </Grid>
       </Grid>
