@@ -52,7 +52,7 @@ function PricingCard() {
   const pricingOptions = [
     {
       type: "3 BHK",
-      price: "4000 INR",
+      price: "6000 INR",
       description:
         "Spacious 3 Bedrooms with Hall and Kitchen with stove and fridge, good stay for family of 8 to 12 people.",
       images: [
@@ -71,7 +71,7 @@ function PricingCard() {
     },
     {
       type: "4 BH",
-      price: "5000 INR",
+      price: "8000 INR",
       description:
         "Comfortable 4 Bedrooms with Hall and with all basic facilities for a family of 10 to 16 people.",
       images: [
@@ -95,7 +95,7 @@ function PricingCard() {
     },
     {
       type: "7 BHK",
-      price: "8000 INR",
+      price: "14000 INR",
       description:
         "We rent out the whole house for joint families or for travel agency with accomodation of 18 to 40 people.",
       images: [
@@ -116,7 +116,7 @@ function PricingCard() {
     },
     {
       type: "1 BHK",
-      price: "1200 INR",
+      price: "1800 INR",
       description:
         "Comfortable 1 bedroom with balcony which is best suitable for singles or couples.",
       images: [bhk4_3, bhk4_4, bhk4_5, bhk4_6],
